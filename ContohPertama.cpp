@@ -10,7 +10,7 @@ void input(){
     cin >> bilDua;
 }
 
-float pemjumlahan(float a, float b){
+float penjumlahan(float a, float b){
     return a + b; 
 }
 
@@ -38,6 +38,24 @@ int main(){
         cout << "5. exit " << endl;
         cout << "Masukkan Pilihan 1/2/3/4/5 = ";
         cin >> pilihan;
+
+        switch(pilihan){
+            case 1:
+            input();
+            cout << "Hasil Penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+            break;
+
+            case 2:
+            input();
+            cout << "Hasil Pembagian = " << pembagian(bilSatu, bilDua) << endl;
+            break;
+
+            case 3:
+            input();
+            cout << "Hasil Perkalian = " << perkalian(bilSatu, bilDua) << endl;
+            break;
+
+        }
 
 
    }while (pilihan  != 5);
