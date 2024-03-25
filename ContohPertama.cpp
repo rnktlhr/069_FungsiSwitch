@@ -36,5 +36,11 @@ int main(){
         cout << "3. perkalian " << endl;
         cout << "4. pengurangan " << endl;
         cout << "5. exit " << endl;
+        cout << "Masukkan Pilihan 1/2/3/4/5 = ";
+        cin >> pilihan;
+
+
    }while (pilihan  != 5);
+
+
 }
